@@ -1,10 +1,15 @@
 import React from 'react';
 import './App.css';
-import Button from './Button';
+import foto from './bag_1.png';
+
+
+
+
 
 function App() {
   return (
-     <nav>
+
+/*     <nav>
 
       <h1>Handbags & Purses</h1>
 
@@ -12,7 +17,19 @@ function App() {
          <Button subject ={"Shop All Bags"}/>
          <Button subject ={"Pre-Orders"}/>
 
-     </nav>
+     </nav>*/
+
+<main>
+          <article>
+              <span>Best seller</span>
+              <img src={foto} alt={"tas"}/>
+              <p> The handy bag  </p>
+              <h4>350,-</h4>
+          </article>
+
+        <article subject={"Best-Seller"}/>
+
+</main>
   );
 }
 
