@@ -8,17 +8,9 @@ function App() {
 
       <h1>Handbags & Purses</h1>
 
-       <button
-           onClick={() => console.log( "to the collection")}>
-           to the collection
-       </button>
-
-         <button
-             onClick={() => console.log( "shop al bags")}>
-         > shop all bags
-         </button>
-
-         <Button/>
+         <Button subject ={"To The Collection"}/>
+         <Button subject ={"Shop All Bags"}/>
+         <Button subject ={"Pre-Orders"}/>
 
      </nav>
   );
