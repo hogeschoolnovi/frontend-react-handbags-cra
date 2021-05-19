@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Button from './Button';
 
 function App() {
   return (
@@ -17,9 +18,7 @@ function App() {
          > shop all bags
          </button>
 
-         <button
-             //onClick={() => console.log( "pre-orders")}
-         > pre-orders </button>
+         <Button/>
 
      </nav>
   );
