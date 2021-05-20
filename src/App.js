@@ -8,6 +8,7 @@ import brand from './brand.png';
 import story from './our_story.png';
 import Button from "./Button";
 import Product from "./Product";
+import Tile from "./Tile.js";
 
 
 
@@ -57,30 +58,48 @@ function App() {
 
 </main>
 
+
          <footer>
 
-             <section>
-                 <h2>Our story</h2>
-                 <img src={brand}/>
+{/*             Tegels
+             Maak een omwikkelende footer-tag voor de tegels. Maak vier section-elementen met daarin:
+             Een afbeelding van het merk of de designers (als er geen tekst in staat)
+             Een h2-element voor de titel en p-elementen voor de paragrafen (als er wel tekst in staat)
+             Maak nu een custom Tile-component die alle benodigde data kan ontvangen.
+             Als er een afbeelding wordt meegegeven gedraagd hij zich als een foto-tegel,
+             maar zonder afbeelding is het een tekst-tegel.
+             Houd er rekening mee dat je van tevoren ook niet weet hoeveel
+             losse paragrafen er in een Tile komen te staan.
 
-             </section>
+             [x] maak section elementen
+             [] vertaal naar component
 
-             <section>
-                 <h2>Our story</h2>
-                 <p>LoremLoremLoremLoremLoremLoremLoremLorem</p>
-             </section>
+             [] functie "foto of tekst kan in component (in js toch ?)"
+             [] optie tot meerdere paragrafen ?*/}
 
-             <section>
-                 <h2>Our story</h2>
-                 <p>LoremLoremLoremLoremLoremLoremLoremLorem</p>
 
-             </section>
+             <Tile
+             titel="The brand"
+             tekst="fantastisch merk"
+             image
+             />
 
-             <section>
-                 <h2>Our story</h2>
-                 <img src={story}/>
+             <Tile
+                 titel="our story"
+                 tekst="LoremLoremLoremLoremLoremLorem"
+                 image={brand}
+             />
 
-             </section>
+             <Tile
+                 titel="our story"
+                 tekst="ge-wel-dig verhaal"
+                 image={story}
+             />
+
+             <Tile
+                 titel="our story"
+                 tekst="LoremLoremLoremLoremLoremLorem"
+             />
 
          </footer>
 
