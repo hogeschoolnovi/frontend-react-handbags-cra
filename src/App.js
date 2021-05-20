@@ -4,6 +4,8 @@ import bag1 from './bag_1.png';
 import bag2 from './bag_2.png';
 import bag3 from './bag_3.png';
 import bag4 from './bag_4.png';
+import brand from './brand.png';
+import story from './our_story.png';
 import Button from "./Button";
 import Product from "./Product";
 
@@ -41,19 +43,47 @@ function App() {
 
         <Product
             span="New collection"
-            image={bag2}
+            image={bag3}
             omschrijving="The simple bag"
             prijs="€300,-"
         />
 
         <Product
             span="New collection"
-            image={bag2}
+            image={bag4}
             omschrijving="The trendy bag"
             prijs="€150,-"
         />
 
 </main>
+
+         <footer>
+
+             <section>
+                 <h2>Our story</h2>
+                 <img src={brand}/>
+
+             </section>
+
+             <section>
+                 <h2>Our story</h2>
+                 <p>LoremLoremLoremLoremLoremLoremLoremLorem</p>
+             </section>
+
+             <section>
+                 <h2>Our story</h2>
+                 <p>LoremLoremLoremLoremLoremLoremLoremLorem</p>
+
+             </section>
+
+             <section>
+                 <h2>Our story</h2>
+                 <img src={story}/>
+
+             </section>
+
+         </footer>
+
 
 </nav>
   );
