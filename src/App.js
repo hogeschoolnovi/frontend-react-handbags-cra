@@ -81,7 +81,7 @@ function App() {
              <Tile
              titel="The brand"
              tekst="fantastisch merk"
-             image
+
              />
 
              <Tile
@@ -98,7 +98,7 @@ function App() {
 
              <Tile
                  titel="our story"
-                 tekst="LoremLoremLoremLoremLoremLorem"
+                 tekst="ge-wel-dig verhaal"
              />
 
          </footer>

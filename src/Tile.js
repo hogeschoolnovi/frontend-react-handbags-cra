@@ -6,9 +6,9 @@ function Tile ({ titel, tekst, image, }) {
     return(
 
         <section className="tile">
-            <h2 className="tile-tekst">{titel}</h2>
-            <p className="tile-titel">{tekst}</p>
-            <img onError={tekst} src={image} alt={titel}/>
+            <h2>{titel}</h2>
+            <p>{tekst}</p>
+            <img src={image} onError={titel}/>
 
         </section>
     )
