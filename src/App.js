@@ -81,7 +81,6 @@ function App() {
              <Tile
              titel="The brand"
              tekst="fantastisch merk"
-
              />
 
              <Tile

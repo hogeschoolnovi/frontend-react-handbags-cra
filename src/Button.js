@@ -14,12 +14,12 @@ function Button(props) {
 export default Button;*/
 
 function Button(props) {
+
     return (
     <button
         onClick={() => console.log(props.subject)}>{props.subject}
     </button>
     );
-
 }
 
 export default Button;

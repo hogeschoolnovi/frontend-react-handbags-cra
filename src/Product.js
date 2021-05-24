@@ -11,8 +11,8 @@ return (
         <img src={image} alt={omschrijving}/>
         <p className="product-naam">{omschrijving}</p>
         <h4 className="product-prijs">{prijs}</h4>
-
     </article>
+
 )
 }
 
