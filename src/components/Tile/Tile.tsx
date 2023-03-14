@@ -1,4 +1,4 @@
-export default function Tile({ children, title, image, imageDesc }: { children: string|undefined, title: string|undefined, image: string|undefined, imageDesc: string|undefined }) {
+export default function Tile({ children, title, image, imageDesc }: { children?: string, title?: string, image?: string, imageDesc?: string }) {
   return (
     <section>
       {image && <img src={ image } alt={ imageDesc } />}

@@ -22,12 +22,12 @@ export default function App() {
         <Product label='New collection' image='./assets/bag_4.png' price={ 150 }>The trendy bag</Product>
       </main>
       <footer>
-        <Tile title='The brand' image={undefined} imageDesc={undefined}>
+        <Tile title='The brand'>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid culpa dolorum enim excepturi, fuga pariatur praesentium quia sequi similique sunt.
         </Tile>
-        <Tile image='./assets/brand.png' imageDesc='The brand logo' children={undefined} title={undefined} />
-        <Tile image='./assets/our_story.png' imageDesc='The designers' children={undefined} title={undefined} />
-        <Tile title='Our story' image={undefined} imageDesc={undefined}>
+        <Tile image='./assets/brand.png' imageDesc='The brand logo' />
+        <Tile image='./assets/our_story.png' imageDesc='The designers' />
+        <Tile title='Our story'>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid culpa dolorum enim excepturi, fuga pariatur praesentium quia sequi similique sunt.
         </Tile>
       </footer>
